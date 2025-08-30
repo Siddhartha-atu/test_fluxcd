@@ -13,8 +13,6 @@ spec:
     metadata:
       labels:
         app: mysql-app
-      annotations:
-        fluxcd.io/restartedAt: "2025-08-29T13:00:00Z" # change timestamp to trigger rollout
     spec:
       initContainers:
       - name: init-mysql
